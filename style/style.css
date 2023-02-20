@@ -252,7 +252,17 @@ body .navbar{
     .navigation.active{
         width: 700px;
     }
+
     .navigation li{
         font-size: 1em;
+    }
+
+    .proyectos .p1, .p2, .p3{
+        width: 600px;
+    }
+
+    .lenguajes .card{
+        transition: 2s;
+        width: 25%;
     }
 }
