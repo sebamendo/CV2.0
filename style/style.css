@@ -35,7 +35,7 @@ body .navbar{
 }
 
 .navigation.active{
-    width: 700px;
+    width: 90%;
 
 }
 
@@ -104,6 +104,7 @@ body .navbar{
 }
 
 .navigation li{
+    font-size: 0.6em;
     list-style: none;
     transition: 0.5s;
     transform: scale(0);
@@ -230,7 +231,7 @@ body .navbar{
 
 .proyectos .p1, .p2, .p3{
     display: flex;
-    width: 500px;
+    width: 70%;
     flex-direction: column;
     text-align: center;
     border-radius: 20px;
