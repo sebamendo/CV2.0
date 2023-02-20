@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style/style.css">
+<title>Title</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreMi.html">Sobre Mi</a></li>
+            <li><a href="datosPersonales.html">Datos Personales</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <span class="toggleMenu"></span>
+        </ul>
+    
+        <script>
+            let toggleMenu = document.querySelector('.toggleMenu');
+            let navigation = document.querySelector('.navigation');
+            toggleMenu.onclick = function(){
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </div>
+
+    <seciton class="proyectos">
+        <div class="proy">
+            <h2>Proyectos</h2>
+            <div class="proyCard">
+                <div class="p1">
+                    <p class="titulo">Juego: Batalla Galactica</p>
+                    <p>Creado con Godot (Game Engine)</p>
+                    <p>Lenguaje de programacion: GDScript</p>
+                    <a href="https://chinoxpichu.itch.io/batalla-galactica-sm" target="_blank"><p class="bi bi-link-45deg"> Link Batalla Galactica</p></a>
+                </div>
+                <div class="p2">
+                    <p class="titulo">Cv Propio</p>
+                    <p>Lenguajes: HTML5, CCS3</p>
+                    <a href="https://starlit-arithmetic-e532c8.netlify.app/" target="_blank"><p class="bi bi-link-45deg"> Link CV Sebastian Mendoza</p></a>
+                </div>
+                <div class="p3">
+                    <p class="titulo">Pag Web Tutorial</p>
+                    <p>Lenguajes: HTML5, CCS3</p>
+                    <a href="https://sprightly-kangaroo-6de8f7.netlify.app/" target="_blank"><p class="bi bi-link-45deg"> Link Web</p></a>
+                </div>
+            </div>
+        </div>
+    </seciton>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

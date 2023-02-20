@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style/style.css">
+<title>Title</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreMi.html">Sobre Mi</a></li>
+            <li><a href="datosPersonales.html">Datos Personales</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <span class="toggleMenu"></span>
+        </ul>
+    
+        <script>
+            let toggleMenu = document.querySelector('.toggleMenu');
+            let navigation = document.querySelector('.navigation');
+            toggleMenu.onclick = function(){
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </div>
+
+    <seciton class="datosPersonales">
+        <div class="dp">
+            <h2>Datos Personales</h2>
+            <div class="datos_personales">
+                <p>Mendoza Sebastian Andres</p>
+                <p>26/01/1990</p>
+                <p class="bi bi-geo-alt"> Buenos Aires, Argentina</p>
+                <p class="bi bi-geo-alt"> Chacabuco 473, José C. Paz</p>
+                <a href="https://walink.co/7782fa" target=""><p class="bi bi-whatsapp"> 11-5586-1647</p></a>
+                <a href="mailto:mendozasa1990@gmail.com" target=""><p class="bi bi-google"> mendozasa1990@gmail.com</p></a>
+                <a href="https://www.linkedin.com/in/sebastian-mendoza-45625a221/" target="_blank"><p class="bi bi-linkedin"> linkedIn</p></a>
+            </div>
+            </ul>
+        </div>
+    </seciton>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

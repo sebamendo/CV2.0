@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style/style.css">
+<title>Title</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul class="navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobreMi.html">Sobre Mi</a></li>
+            <li><a href="datosPersonales.html">Datos Personales</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <span class="toggleMenu"></span>
+        </ul>
+    
+        <script>
+            let toggleMenu = document.querySelector('.toggleMenu');
+            let navigation = document.querySelector('.navigation');
+            toggleMenu.onclick = function(){
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </div>
+
+    <seciton class="home">
+        <h1>Sebastian Andres Mendoza</h1>
+        <p> Soy estudiante en la Universidad Nacional de José C. Paz (UnPaz), 
+            siempre estoy perfeccionándome con cursos Online o que brinde la misma Universidad de 
+            la que soy alumno. <br>
+            Para dar a conocer un poco de mi personalidad, soy muy sociable, muy perfeccionista, 
+            una persona proactiva, puntual con la entrega de trabajos y/o proyectos y autodidacta. <br>
+            Habilidades blandas: Comunicación, inteligencia emocional, adaptabilidad, escucha activa, 
+            manejo de tiempo, empatía, tolerancia a las críticas, trabajo en equipo y sociabilidad <br>
+            Siempre con ánimos de aprender y ayudar al que lo requiera
+            </p>
+    </seciton>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
